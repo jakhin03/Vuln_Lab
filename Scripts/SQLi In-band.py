@@ -2,6 +2,7 @@ import requests
 import sys
 import urllib3
 import html
+import re
 
 proxies = {'http':'http://127.0.0.1:8080','https': 'https://127.0.0.1:8080/'} #debug
 
@@ -48,7 +49,7 @@ def exploit_sqli(url,sqli_payload):
 def printhelp(name):
     print("Exploit user password program:")
     print("[-] Usage: %s <url>" %name)
-    print("""[-] Example: %s "https://www.google.com" """ %name)
+    print("""[-] Example: %s "www.example.com" """ %name)
 
 if __name__ == '__main__':
     try:

