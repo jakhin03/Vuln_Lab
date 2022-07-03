@@ -1,4 +1,4 @@
-#Database Setup#
+# Database Setup
 (website/database/connect.php)
 Default: 
 ```
@@ -8,5 +8,5 @@ $password = "Password@123";
 $dbname = "db";
 $port = "80";
 ```
-#Default URL localhost#
+# Default URL localhost
 192.168.109.128:80
